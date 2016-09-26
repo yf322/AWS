@@ -9,7 +9,7 @@ import com.amazonaws.services.ec2.AmazonEC2Client;
 
 public class RedGui extends JFrame {
 
-	final static AWSCredentials credentials = new BasicAWSCredentials("XXXXXXXXXXXXXXXX", "XXXXXXXXXXXXXXXXXXXXXX");
+	final static AWSCredentials credentials = new BasicAWSCredentials("XXXXXXXXXXXXXX", "XXXXXXXXXXXXXXXXXXXXXX");
 	private static final long serialVersionUID = 1L;
 	static AmazonEC2 ec2 = new AmazonEC2Client(credentials);
 s
